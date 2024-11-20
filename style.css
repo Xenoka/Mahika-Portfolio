@@ -167,6 +167,7 @@ section {
     gap: 5rem;
     height: 80vh;
     left: 100px;
+    border-radius: 2rem;
 }
 
 .section__pic-container {
@@ -283,7 +284,9 @@ border: rgb(255,255,255) 0.1rem solid;
 }
 
 .text-container p {
-    color: white;
+    color: black;
+    background-color: white;
+    border-radius: 0.5rem;
 }
 .about-containers {
     gap: 2rem;
@@ -321,7 +324,11 @@ border: rgb(255,255,255) 0.1rem solid;
     border: rbg(53, 53, 53) 0.1rem solid;
     border-color: rgb(163,163,163);
     text-align: center;
+    position: relative;
+    top: -10px;
 }
+
+
 
 .section-container {
     gap: 4rem;
