@@ -9,7 +9,12 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: gray;
+    background-image: url('/assets/asset/minimalist-concrete-wall-background-pale-gray_707519-22920.avif');
+    background-size: cover;  /* Makes the image cover the entire viewport */
+    background-position: center center;  /* Centers the image */
+    background-attachment: fixed;  /* Keeps the background fixed while scrolling */
+    margin: 0;  /* Removes default margin from the body */
+    height: 100vh;
 }
 
 html {
@@ -50,7 +55,7 @@ a {
 }
 
 a:hover {
-    color: white;
+    color: gray;
     text-decoration: underline;
     text-underline-offset: 1rem;
     text-decoration: rgb(181,181,181);
