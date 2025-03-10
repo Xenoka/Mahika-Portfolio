@@ -290,17 +290,20 @@ border: rgb(255,255,255) 0.1rem solid;
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    color: black;
 }
 
 .about-details-container {
     justify-content: center;
     flex-direction: column;
     margin-top: 3rem;
+    color: black;
 }
 
 .about-containers,
 .about-details-container {
     display: flex;
+    color: black;
 }
 
 .about-pic {
@@ -331,6 +334,7 @@ border: rgb(255,255,255) 0.1rem solid;
 .section-container {
     gap: 4rem;
     height: 8%;
+    color: black;
 }
 
 .section__pic-container {
@@ -349,6 +353,7 @@ border: rgb(255,255,255) 0.1rem solid;
 
     .section__text__p1 {
         font-size: 1.5rem; /* Adjust font size for better spacing */
+        color: black;
     }
 }
     /* EXPERIENCE SECTION */
@@ -368,6 +373,7 @@ border: rgb(255,255,255) 0.1rem solid;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    color: black;
   }
   
   .article-container {
